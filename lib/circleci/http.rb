@@ -16,7 +16,7 @@ module CircleCi
     end
 
     def get(path, params = {})
-      request 'get', "#{path}?#{RestClient::Payload.generate(build_params(params))}"
+      request 'get', "#{path}?limit=100&#{RestClient::Payload.generate(build_params(params))}"
     end
 
     def post(path, params = {}, body = {})
