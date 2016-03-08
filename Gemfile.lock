@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    circleci (0.2.2)
+    circleci-limit (0.2.2)
       rest-client (~> 1.8)
 
 GEM
@@ -21,7 +21,7 @@ GEM
       safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    domain_name (0.5.23)
+    domain_name (0.5.20160216)
       unf (>= 0.0.5, < 1.0.0)
     dotenv (2.1.0)
     ethon (0.8.1)
@@ -33,9 +33,9 @@ GEM
       domain_name (~> 0.5)
     json (1.8.3)
     method_source (0.8.2)
-    mime-types (2.4.3)
+    mime-types (2.99.1)
     multi_json (1.11.2)
-    netrc (0.10.3)
+    netrc (0.11.0)
     parser (2.3.0.6)
       ast (~> 2.2)
     powerpack (0.1.1)
@@ -83,7 +83,7 @@ GEM
       ethon (>= 0.8.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.6)
+    unf_ext (0.0.7.2)
     unicode-display_width (0.3.1)
     vcr (3.0.1)
     webmock (1.24.0)
@@ -96,7 +96,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  circleci!
+  circleci-limit!
   coveralls (~> 0.8.11, >= 0.8.11)
   dotenv (~> 2.1.0, >= 2.1.0)
   gemcutter (~> 0.7.1, >= 0.7.1)
